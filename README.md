@@ -1,5 +1,5 @@
 # CompositionCap
-##Mask Decoding
+## Mask Decoding
 ```python
 def decompress_mask(comp_string, height, width):
     compressed_bytes = base64.b64decode(comp_string.encode('ascii'))
